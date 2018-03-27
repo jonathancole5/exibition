@@ -1,0 +1,140 @@
+body {
+	background: linear-gradient(#10141C, #06080A);
+	background-size: 100% 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display:  grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr auto auto;
+	grid-gap: 40px;
+}
+
+.navbar {
+	border-radius: 3px;
+	box-shadow: 5px 5px 10px;
+	padding: 0px;
+	border: 2px solid #737373;
+	grid-column: 1 / 6;
+	grid-row: 2 / 2;
+	overflow: hidden;
+	background: linear-gradient(#555, #444);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: Verdana;
+}
+
+.homebutton {
+	border-bottom: 1px solid #333;
+	border-top: 1px solid #333;
+	border-left: 2px solid #333;
+	border-right: 2px solid #333;
+}
+	
+.noelbutton {
+	border-bottom: 1px solid #333;
+	border-top: 1px solid #333;
+}
+
+.darabutton {
+	border-bottom: 1px solid #333;
+	border-top: 1px solid #333;
+	border-left: 2px solid #333;
+	border-right:2px solid #333;
+}
+	
+.header {
+	text-shadow: 1px 1px 1px #020202;
+	grid-column: 2 / 5;
+	padding: 2px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3E4856;
+	border: 2px solid #737373;
+	border-radius: 7px;
+	color: rgb(245,245,245);
+	text-align: center;
+	font-family: Trebuchet MS;
+	font-size: 30px;
+	box-shadow: 3px 2px 3px #000,
+	-3px -1px 3px #000, 
+	3px -1px 3px #000,
+	-3px 1px 3px #333;
+}
+
+.home-subhead {
+	float: left;
+	grid-column: 1 / 6;
+	grid-row: 4 / 5;
+	font-family: georgia;
+	color: #F5F5F5;
+	font-size: 28px;
+	text-shadow: 4px 5px 2px #000
+}
+
+.home-subhead h2 {
+	text-align: center;
+}
+
+.home-subhead p {
+	grid-column: 2 / 6;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.noel-subhead {
+	float: left;
+	grid-column: 1 / 6;
+	grid-row: 4 / 5;
+	font-family: georgia;
+	color: #F5F5F5;
+	font-size: 20px;
+}
+
+.noel-subhead h2{
+	text-align: left;
+	padding-left: 50px;
+}
+
+.noel-subhead p {
+	grid-column: 2 / 6;
+	padding-left: 100px;
+	text-align: left;
+	max-width: 26%;
+}
+
+.dara-subhead {
+	float: left;
+	grid-column: 1 / 6;
+	grid-row: 4 / 5;
+	font-family: georgia;
+	color: #F5F5F5;
+	font-size: 20px;
+}
+
+.dara-subhead h2{
+	text-align: left;
+	padding-left: 50px;
+}
+
+.dara-subhead p {
+	grid-column: 2 / 6;
+	padding-left: 100px;
+	text-align: left;
+	max-width: 26%;
+}
+
+ #img src {}
+.outline {
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
