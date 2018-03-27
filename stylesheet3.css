@@ -15,7 +15,7 @@ body {
 	padding: 0px;
 	border: 2px solid #737373;
 	grid-column: 1 / 6;
-	grid-row: 2 / 2;
+	grid-row: 2 / 3;
 	overflow: hidden;
 	background: linear-gradient(#555, #444);
 }
@@ -71,7 +71,7 @@ body {
 .home-subhead {
 	float: left;
 	grid-column: 1 / 6;
-	grid-row: 4 / 5;
+	grid-row: 3 / 4;
 	font-family: georgia;
 	color: #F5F5F5;
 	font-size: 28px;
@@ -90,14 +90,14 @@ body {
 
 .noel-subhead {
 	float: left;
-	grid-column: 1 / 6;
-	grid-row: 4 / 5;
+	grid-column: 1 / 4;
+	grid-row: 3 / 4;
 	font-family: georgia;
 	color: #F5F5F5;
 	font-size: 20px;
 }
 
-.noel-subhead h2{
+.noel-subhead h2 {
 	text-align: left;
 	padding-left: 50px;
 }
@@ -106,19 +106,24 @@ body {
 	grid-column: 2 / 6;
 	padding-left: 100px;
 	text-align: left;
-	max-width: 26%;
+	max-width: 50%;
 }
 
 .dara-subhead {
 	float: left;
 	grid-column: 1 / 6;
-	grid-row: 4 / 5;
+	grid-row: 3 / 4;
 	font-family: georgia;
 	color: #F5F5F5;
 	font-size: 20px;
 }
 
-.dara-subhead h2{
+.noel-image {
+	grid-row: 3 / 4;
+	grid-column: 3 / 6;
+}
+
+.dara-subhead h2 {
 	text-align: left;
 	padding-left: 50px;
 }
@@ -130,6 +135,11 @@ body {
 	max-width: 26%;
 }
 
+.dara-img {
+	grid-row: 3 / 4;
+	grid-column: 3 / 6;
+}
+
  #img src {}
 .outline {
 	text-shadow:
@@ -137,4 +147,8 @@ body {
 	1px -1px 0 #000,
 	-1px 1px 0 #000,
 	1px 1px 0 #000;
+}
+
+.border {
+	border: 10px solid #FFFF;
 }
