@@ -52,7 +52,7 @@ body {
 	padding: 2px 20px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #3E4856;
+	background: linear-gradient(#3E4856, #2C333C);
 	border: 2px solid #737373;
 	border-radius: 7px;
 	color: rgb(245,245,245);
@@ -72,7 +72,7 @@ body {
 	font-family: georgia;
 	color: #F5F5F5;
 	font-size: 28px;
-	text-shadow: 4px 5px 2px #000
+	text-shadow: 4px 5px 2px #020202
 }
 
 .home-subhead h2 {
@@ -138,12 +138,13 @@ body {
 }
 
  #img src {}
+
 .outline {
 	text-shadow:
-	-1px -1px 0 #000,
-	1px -1px 0 #000,
-	-1px 1px 0 #000,
-	1px 1px 0 #000;
+	-1px -1px 0 #222,
+	1px -1px 0 #222,
+	-1px 1px 0 #222,
+	1px 1px 0 #222;
 }
 
 .border {
